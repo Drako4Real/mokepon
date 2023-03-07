@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./js/main.js"></script>
+    <title>Mokepon</title>
+</head>
+<body>
+    <!------ ------ SELECCIONAR MASCOTA ------ ------>
+    <section id="select-pet">
+        <div class="title-container">
+            <img class="title" src="Recursos/MokeponTitle.svg" srcset="">
+            <h2>Elige a tu mascota</h2>
+        </div>
+
+        <div class="container">
+            <div class="card">
+                <div class="earth">
+                    <img src="Recursos/SelectPet/Select-Ratigueya.svg" class="monster" srcset="">
+                    <div class="box-label">
+                        <input type="radio" name="mascota" id="ratigueya">
+                        <span>Ratigueya</span>
+                        <label class="label label-G" for="ratigueya">Usar</label>
+                    </div>
+                </div>
+
+                <div class="water">
+                    <img src="Recursos/SelectPet/Select-Pejelagarto.svg" class="monster" srcset="">
+                    <div class="box-label">
+                        <input type="radio" name="mascota" id="pejelagarto">
+                        <span>Pejelagarto</span>
+                        <label class="label label-B" for="pejelagarto">Usar</label>
+                    </div>
+                </div>
+
+                <div class="fire">
+                    <img src="Recursos/SelectPet/Select-Dragonfly.svg" class="monster" srcset="">
+                    <div class="box-label">
+                        <input type="radio" name="mascota" id="dragonfly">
+                        <span>Dragonfly</span>
+                        <label class="label label-Y" for="dragonfly">Usar</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="button">
+            <button id="btn-select">Seleccionar</button>
+        </div>
+        <!-- <img src="Recursos/SelectPet/ShadowMokepon.svg" class="shadow"> -->
+    </section>
+
+    <!------ ------ ------ ------>
+
+    <!------ ------ SELECCIONAR ATAQUE ------ ------>
+    <section id="select-ataque">
+
+        <img class="fondoV" src="Recursos/FondoRatigueya.svg" srcset="">
+        <img class="title2" src="Recursos/MokeponTitle.svg" srcset="">
+        <div class="container-attacks">
+            <h2>elige tu ataque</h2>
+
+        </div>
+        <p>Tu mascota es <span id="nameMascota"></span> tiene: <span id="vidaJugador"></span> vidas</p>
+        <p>La mascota del enemigo es <span id="nameMascotaEnemi"></span> tiene: <span id="vidaEnemigo"></span> vidas</p>
+
+        <p>
+            <button id="btn-fuego">Fuego 🔥</button>
+            <button id="btn-agua">Agua 💧</button>
+            <button id="btn-tierra">Tierra 🌱</button>
+        </p>
+
+        <section id="mensajeJugador">
+            <p>Tu mascota ataco con <span id="msjAtaqueJugador"></span></p>
+        </section>
+
+        <section id="mensajeEnemigo">
+            <p>La mascota del enemigo atacó con <span id="msjAtaqueEnemigo"></span></p>
+        </section>
+    </section>
+<!------ ------ ------ ------>
+
+    <section id="mensajes">
+        <section id="mensajeResultado">
+        </section>
+
+        <section id="mensajeCero">
+        </section>
+    </section>
+
+    <section id="reinicio">
+        <button id="btn-reiniciar">Reiniciar</button>
+    </section>
+
+    <!-- <div class="box">
+        <img src="/Recursos/Fondo.svg" alt="">
+    </div> -->
+</body>
+</html>

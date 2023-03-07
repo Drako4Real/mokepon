@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Showcard Gothic';
+    background-color: #D7ECFF;
+}
+
+/* ------ ------ SELECCION MASCOTA ------ ------ */
+
+#select-pet {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 30% 48% 20%;
+}
+
+/* ------ ------ TITULO ------ ------ */
+.title-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    width: 350px;
+    padding: 30px 0 20px 0;
+}
+
+/* ------ ------ ------ ------ ------ ------ */
+
+/* ------ ------ CARTAS ------ ------ */
+
+.container {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 60%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    box-sizing: border-box;
+}
+
+.box-label {
+    width: 100%;
+    height: 15%;
+    padding-top: 20px;
+}
+
+.monster {
+    width: 100%;
+}
+
+input {
+    display: none;
+}
+
+label {
+    width: 85px;
+    height: 30px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 3px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.label-G {
+    background: linear-gradient(160deg, #06D163, #1C7645);
+}
+.label-B {
+    background: linear-gradient(160deg, #00DBFF, #1B22D3);
+}
+.label-Y {
+    background: linear-gradient(160deg, #FFFF00, #F7931E);
+}
+
+/* ------ ------ ------ ------ ------ ------ */
+
+/* ------ ------ BOTON ------ ------ */
+.button {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#btn-select {
+    width: 270px;
+    height: 60px;
+    border:  solid 4px #000;
+    border-radius: 20px;
+    background: #FFFF00;
+    font-family: 'Showcard Gothic';
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#btn-select:hover {
+    background: linear-gradient(160deg, #FFFF00, #F7931E);
+}
+
+/* ------ ------ ------ ------ ------ ------ */
+
+.shadow {
+    width: 100vw;
+    z-index: -5;
+    position: absolute;
+}
+
+/* ------ ------  ------ ------ */
+
+/* ------ ------ ------ ------ ------ ------ */
+
+/* ------ ------ SELECCION ATAQUE ------ ------ */
+
+.title2 {
+    margin: 30px;
+    width: 150px;
+}
