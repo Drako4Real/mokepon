@@ -131,3 +131,16 @@ label {
     margin: 30px;
     width: 150px;
 }
+
+#select-ataque {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.container-attacks {
+    width: 400px;
+    height: 100vh;
+    background: #1837b3;
+}
